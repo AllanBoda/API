@@ -1,0 +1,55 @@
+#buttoncontainer{
+    margin: auto;
+    width: 500px;
+    margin-top: 2.5%;
+    background-color: rgba(126, 0, 0, 0.35);
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgba(126, 0, 0.35);
+    visibility: visible;
+  }
+
+  #rover{
+    margin: auto;
+    width: 250px;
+    margin-top: 25px;
+    
+  }
+
+  #Teclad{
+    margin: auto;
+    width: 200px;
+    margin-top: 2.5%;
+    background-color: rgba(112, 112, 112, 0.35);
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgb(116, 79, 79);
+    visibility: visible;
+  }
+  #Inicia{
+    margin: auto;
+    width: 100px;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-top: 2.5%;
+  }
+
+  #final{
+    margin: auto;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    height: fit-content;
+  }
+
+  #esquerda{
+    display: inline;
+    
+  }
+
+  #direita{
+    display: inline;
+    float: right;
+  }
+
+
+  .button{
+    text-align: center;
+  }

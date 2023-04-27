@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="cs.css">
+    <title>ROVER</title>
+  </head>
+<body>
+    <script src="jv.js"></script>
+<div id="buttoncontainer">    
+
+<div id="rover">
+    <img src="Table1.png" id="roverIMG">
+</div>
+
+<a href="http://127.0.0.1:5000/division?num1=2&num2=3" id="URL">DIVISÃO</a>
+
+<div id="Teclad">
+<!-- Cima -->
+ <div id="cima" class="button">
+     <button onclick="apertaCima()">
+         <h1>▲</h1>   
+    </button>
+</div>
+<!-- Esquerda e Direita -->
+<div>
+    <div id="esquerda" class="button">
+        <button onclick="apertaEsquerda()">
+            <h1>◄</h1>   
+        </button>
+    </div>
+    <div id="direita" class="button">
+        <button onclick="apertaDireita()">
+            <h1>►</h1>   
+        </button>
+    </div>
+</div>
+<!-- Baixo -->
+ <div id="baixo" class="button">
+     <button onclick="apertaBaixo()">
+            <h1>▼</h1>   
+    </button>
+ </div>
+</div>
+<!-- Começar -->
+
+<div id="Inicia" >
+    <button onclick="colocaResult()">
+        <h1>
+            START
+        </h1>
+    </button>
+</div>
+
+<!-- Resultado -->
+
+<div id="final">
+    <p id="lado">
+            Direção =
+    </p>
+
+
+    <p id="resultado">
+            Lugar = 1
+    </p>
+
+</div>
+
+
+</body>
+
+</html>
